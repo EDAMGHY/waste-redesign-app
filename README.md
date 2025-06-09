@@ -153,10 +153,13 @@ Tailwind utilities (`lg:grid-cols-3`, `overflow-x-auto`, `snap-x snap-mandatory`
 - Tailwind mask classes fade the container’s edges:
 
   ```css
-  .mask-alpha {
-    mask-image: linear-gradient(to right, black, transparent);
-    /* and the inverse for right edge */
-  }
+  .mask-alpha
+    .mask-l-from-body
+    .mask-l-to-transparent
+    .mask-l-from-70%
+    .mask-r-from-body
+    .mask-r-to-transparent
+    .mask-r-from-70%;
   ```
 
 ### Reusable Components
