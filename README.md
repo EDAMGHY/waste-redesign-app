@@ -1,4 +1,3 @@
-```markdown
 # Waste Redesign App
 
 A responsive React/TypeScript app for browsing and selecting skip-hire sizes, with client-side pagination, edge-fade masks, and a detailed view card. Includes dynamic image placeholders for skip previews.
@@ -62,11 +61,12 @@ A responsive React/TypeScript app for browsing and selecting skip-hire sizes, wi
 - yarn
 
 _Backend endpoint required:_
+
 ```
 
 GET /api/skips/by-location?postcode=NR32\&area=Lowestoft
 
-````
+```
 
 ### Installation
 
@@ -74,7 +74,7 @@ GET /api/skips/by-location?postcode=NR32\&area=Lowestoft
 git clone https://github.com/EDAMGHY/waste-redesign-app
 cd waste-redesign-app
 yarn install
-````
+```
 
 ### Environment Variables
 
